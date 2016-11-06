@@ -1,8 +1,8 @@
 # Ignore environment variable used in dotenv
-.env
+
 
 # Ignore the compiled typings folder
-typings
+
 
 # Ignore .js file transpiled from typescript
 
