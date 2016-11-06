@@ -17,7 +17,7 @@
     "dev": "concurrently \"npm run tsc:w\" \"npm start\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "start": "node ./server/bin/www",
+    "start": "nodemon ./server/bin/www",
     "typings": "typings",
     "postinstall": "typings install"
   },
@@ -39,6 +39,7 @@
     "eslint": "^3.1.1",
     "express": "^4.13.4",
     "express-session": "^1.11.3",
+    "nodemon": "^1.11.0",
     "reflect-metadata": "0.1.2",
     "serve-favicon": "^2.3.0",
     "systemjs": "0.19.27"
