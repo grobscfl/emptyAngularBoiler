@@ -22,12 +22,12 @@ app.use(session({
     saveUninitialized: true
 }));
 app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
-//app.use(express.static(path.join(__dirname, '../public')));
-//app.use('/lib',express.static(path.join(__dirname, '../node_modules')));
-//app.use('/app',express.static(path.join(__dirname, '../app')));
-//app.use('/css',express.static(path.join(__dirname, '../public/assets/css')));
-//app.use('/js',express.static(path.join(__dirname, '../public/assets/js')));
-//app.use('/config',express.static(path.join(__dirname, '../config')));
+app.use(express.static(path.join(__dirname, '../public')));
+app.use('/lib', express.static(path.join(__dirname, '../node_modules')));
+app.use('/app', express.static(path.join(__dirname, '../app')));
+app.use('/css', express.static(path.join(__dirname, '../public/assets/css')));
+app.use('/js', express.static(path.join(__dirname, '../public/assets/js')));
+app.use('/config', express.static(path.join(__dirname, '../config')));
 app.use('/', routes);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
