@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 var favicon = require('serve-favicon');
 var routes = require('./routes/index');
+
 var app = express();
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
