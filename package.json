@@ -42,7 +42,7 @@
     "nodemon": "^1.11.0",
     "reflect-metadata": "0.1.2",
     "serve-favicon": "^2.3.0",
-    "systemjs": "0.19.27"
+    "systemjs": "0.19.27",
     "concurrently": "^2.0.0",
     "core-js": "^2.4.0",
     "rxjs": "5.0.0-beta.6",
